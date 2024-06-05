@@ -41,7 +41,7 @@ public class Zumbi extends Ator {
                 direcao = 4;
             }
             movendo = true;
-        } else if (this.y < y) { // Este bloco parece ser uma duplicação do anterior. Deve ser removido.
+        } else if (this.y < y) { 
             moveTo(x, y, velocidade);
             if (direcao != 5) {
                 setSequence(1, 4);
